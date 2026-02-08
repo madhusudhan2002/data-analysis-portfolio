@@ -11,9 +11,16 @@ venv/
 # VS Code
 .vscode/
 
-# Dataset files (optional if large)
-*.csv
-*.xlsx
+# Large datasets (optional – keep small demo data)
+data_large/
+*.zip
 
 # Streamlit cache
 .streamlit/
+
+# Output files
+outputs/
+
+# OS files
+.DS_Store
+Thumbs.db
